@@ -28,7 +28,7 @@ class Configuration(object):
         
 
         if self.verbose:
-            print "StatusPage client configuration: " + str(self.__dict__)
+            print("StatusPage client configuration: " + str(self.__dict__))
 
     def validate(self):
         """Validates whether a configuration is valid.
